@@ -91,7 +91,7 @@ label {
   padding: 14px 42px;
   border-radius: 10px;
   border: none;
-  background: linear-gradient(180deg, #008000, #006600);
+  background: linear-gradient(180deg, #002e73, #006600);
   color: #ffffff;
   font-size: 16px;
   font-weight: 800;
@@ -199,7 +199,7 @@ label {
   border-radius: 10px;
   padding: 11px 18px;
 
-  background: linear-gradient(180deg, #008000, #006600);
+  background: linear-gradient(180deg, #002e73, #006600);
   color: white;
 
   font-size: 14px;

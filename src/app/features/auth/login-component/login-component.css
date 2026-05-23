@@ -46,7 +46,7 @@
   height: 50px;
   border: none;
   border-radius: 10px;
-  background: linear-gradient(180deg, #008000, #006600);
+  background: linear-gradient(180deg, #002e73, #006600);
   color: #ffffff;
   font-size: 17px;
   font-weight: 800;
@@ -68,7 +68,7 @@
 }
 
 .register-text a {
-  color: #007300;
+  color: #002e73;
   font-weight: 700;
   text-decoration: none;
 }

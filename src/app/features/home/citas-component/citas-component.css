@@ -136,7 +136,7 @@
   border: none;
   border-radius: 9px;
   padding: 10px 14px;
-  background: linear-gradient(180deg, #008000, #006600);
+  background: linear-gradient(180deg, #002e73, #006600);
   color: white;
   font-weight: 700;
   cursor: pointer;
@@ -256,7 +256,7 @@
   border: none;
   border-radius: 10px;
   padding: 11px 24px;
-  background: linear-gradient(180deg, #008000, #006600);
+  background: linear-gradient(180deg, #002e73, #006600);
   color: white;
   font-weight: 800;
   cursor: pointer;
