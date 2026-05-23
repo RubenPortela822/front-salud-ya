@@ -3,7 +3,7 @@ import { Router, RouterModule } from '@angular/router';
 import { AuthService } from '../../auth/auth.service';
 import { CommonModule } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { faUser,faAddressBook,faCalendarCheck,faRightFromBracket   } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-sidebar-component',
@@ -14,7 +14,11 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 })
 export class SidebarComponent {
   faUser = faUser;
+  faAddressBook = faAddressBook;
   sidebarOpen = true;
+  faCalendarCheck = faCalendarCheck;
+  faRightFromBracket = faRightFromBracket;
+
 
   toggleSidebar() {
     this.sidebarOpen = !this.sidebarOpen;

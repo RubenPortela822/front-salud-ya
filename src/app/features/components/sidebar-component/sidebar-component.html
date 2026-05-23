@@ -14,7 +14,7 @@
       class="menu-item"
       routerLink="/home/perfil"
       routerLinkActive="active">
-      <span class="icon">👤</span>
+      <fa-icon [icon]="faUser" size="2x"></fa-icon>
       <span *ngIf="sidebarOpen">Perfil</span>
     </a>
 
@@ -22,7 +22,7 @@
       class="menu-item"
       routerLink="/home/agendar"
       routerLinkActive="active">
-      <span class="icon">📅</span>
+      <fa-icon [icon]="faAddressBook" size="2x"></fa-icon>
       <span *ngIf="sidebarOpen">Agendar cita</span>
     </a>
 
@@ -30,14 +30,14 @@
       class="menu-item"
       routerLink="/home/citas"
       routerLinkActive="active">
-      <span class="icon">🗓️</span>
+      <fa-icon [icon]="faCalendarCheck" size="2x"></fa-icon>
       <span *ngIf="sidebarOpen">Mis citas</span>
     </a>
 
   </nav>
 
   <button type="button" class="logout-btn" (click)="logout()">
-    <span class="icon">↪</span>
+    <fa-icon [icon]="faRightFromBracket" size="2x"></fa-icon>
     <span *ngIf="sidebarOpen">Salir</span>
   </button>
 
