@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FrontSaludYa
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.7.
@@ -57,3 +58,6 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# front-salud-ya
+>>>>>>> 00c77a232e15a168032ff30c66635f1b24d641cc
